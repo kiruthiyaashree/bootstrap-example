@@ -1,37 +1,68 @@
+a{
+    background-color: rgb(217, 233, 237);
+    padding: 2px 45.5px;
+    text-decoration: none;
+    color: black;
+    /* border-style:solid; */
+    border-radius:  16px;
+}
+a:hover{
+    background-color: rgb(116, 179, 199);
+}
 body{
-    margin: 40px 360px;
-    background-image: url(LOOK1.jpg);
+    margin: 15px;
+    background-color: #c0d4e8;
 }
-.container{
-    display: block;
+.month{
+    border: 2px  solid black;
+    position: fixed;
+    padding: 17px 2px;
+    border-radius: 9px;
+    background-image: url(dotted.jpg);
 }
-.login{
-    text-align: center;
-    background-color: aliceblue;
-    border: 2px groove rosybrown;
-    padding: 40px 0px;  
+ .container{
+    border-radius: 5px;
+    float: right;
+    border: 2px solid black;
+    padding: 3px 3px;
+    padding-bottom: 53mm;
+    background-color: #c0d4e8;
+
+ }
+ 
+ .todo-container{
+    border: 1px dotted rgb(64, 64, 65);
+    border-radius: 10px;
+ }
+ .column-align{
+    columns: 100px 3;
+    /* column-gap: 20px; */
+ }
+ .timeline
+ {
+    float: right;
+ }
+/* hr{
+    padding-top: 50px;
+    border: 2px double black;
+    border-radius: 10px;
+} */
+
+/* .color1 {color: #060606;}
+.color2 {color: #1c2942;}
+.color3 {color: #4f5e8f;}
+.color4 {color: #8a9ddc;}
+.color5 {color: #c0d4e8;} */
+#draw{
+    padding-left: 1000px;
 }
-.details{
-    border: 3px groove burlywood;
-    background-color: antiquewhite;
-    height: 410px;
-}
-.padding{
-    padding-top: 40mm;
-}
-button{
-    text-decoration: wavy;
-    text-transform: uppercase;
-    color: rgb(135, 50, 184);
-    border: 3px dotted rgba(98, 63, 147, 0.592);
-    background-color: rgb(218, 165, 174);
-    padding: 2px 9px;
-}
-fieldset{
-    margin: 200px 0;
-    background-color: aliceblue;
-}
-.labl label{
-    text-align: center;
-    padding: 0px 240px;
+#paint{
+    border: 2px solid black;
+    border-radius: 10px;
+    /* padding-left: 900px; */
+    width: 31%;
+    position: absolute;
+    /* background-color: white; */
+  top: 88px;
+  right: 20px;
 }
