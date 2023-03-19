@@ -1,0 +1,37 @@
+body{
+    margin: 40px 360px;
+    background-image: url(LOOK1.jpg);
+}
+.container{
+    display: block;
+}
+.login{
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px groove rosybrown;
+    padding: 40px 0px;  
+}
+.details{
+    border: 3px groove burlywood;
+    background-color: antiquewhite;
+    height: 410px;
+}
+.padding{
+    padding-top: 40mm;
+}
+button{
+    text-decoration: wavy;
+    text-transform: uppercase;
+    color: rgb(135, 50, 184);
+    border: 3px dotted rgba(98, 63, 147, 0.592);
+    background-color: rgb(218, 165, 174);
+    padding: 2px 9px;
+}
+fieldset{
+    margin: 200px 0;
+    background-color: aliceblue;
+}
+.labl label{
+    text-align: center;
+    padding: 0px 240px;
+}
